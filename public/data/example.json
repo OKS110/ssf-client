@@ -1,0 +1,100 @@
+{
+    "images": [
+        {
+            "img": "/images/1.webp",
+            "alt": "1.webp"
+        },
+        {
+            "img": "/images/2.webp",
+            "alt": "2.webp"
+        },
+        {
+            "img": "/images/3.webp",
+            "alt": "3.webp"
+        },
+        {
+            "img": "/images/4.webp",
+            "alt": "4.webp"
+        },
+        {
+            "img": "/images/5.webp",
+            "alt": "5.webp"
+        },
+        {
+            "img": "/images/6.webp",
+            "alt": "6.webp"
+        },
+        {
+            "img": "/images/7.webp",
+            "alt": "7.webp"
+        }
+    ],
+    "detail": [
+        {
+            "img": "/images/1.webp",
+            "alt": "1.webp",
+            "brand": "BEANPOLE ACCESSARY",
+            "title": "퐁포리 미니어처 인형 키링 - 블랙",
+            "costprice": "25,000",
+            "discount": "28",
+            "saleprice": "18,000",
+            "star": "4.5(36)",
+            "like": "91"
+        },
+        {
+            "img": "/images/2.webp",
+            "alt": "2.webp",
+            "brand": "BEAKER X NEW ERA",
+            "title": "Unisex New York Mets Beaker Cap Key Holder - Light Royal",
+            "costprice": "33,000",
+            "discount": "5",
+            "saleprice": "31,350",
+            "star": "4.5(26)",
+            "like": "171"
+        },
+        {
+            "img": "/images/3.webp",
+            "alt": "3.webp",
+            "brand": "Maison Kitsune",
+            "title": "Unisex Fox Bag Charm - Chesnut",
+            "costprice": "215,000",
+            "discount": "30",
+            "saleprice": "150,500",
+            "star": "4.5(36)",
+            "like": "91"
+        },
+        {
+            "img": "/images/4.webp",
+            "alt": "4.webp",
+            "brand": "BEAKER X TAEGEUKDANG",
+            "title": "Multi Charm Key Ring - Pink",
+            "costprice": "35,000",
+            "discount": "5",
+            "saleprice": "35,250",
+            "star": "5.0(1)",
+            "like": "105"
+        },
+        {
+            "img": "/images/5.webp",
+            "alt": "5.webp",
+            "brand": "Baggu",
+            "title": "Crescent Bag Charm - Black",
+            "costprice": "34,000",
+            "discount": "5",
+            "saleprice": "32,300",
+            "star": "5.0(17)",
+            "like": "105"
+        },
+        {
+            "img": "/images/6.webp",
+            "alt": "6.webp",
+            "brand": "hmode",
+            "title": "Plumbago keyring",
+            "costprice": "31,000",
+            "discount": "5",
+            "saleprice": "29,450",
+            "star": "",
+            "like": "84"
+        }
+    ]
+}

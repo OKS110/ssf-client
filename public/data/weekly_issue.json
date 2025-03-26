@@ -1,0 +1,62 @@
+[
+    {
+        "img": "/image/1.jpg",
+        "description": "워크웨어의 감성 \n하이엔드의 품격 +10%",
+        "brand": "LANSMERE & SHIFT.G"
+    },
+    {
+        "img": "/image/2.webp",
+        "description": "요리가 쉬워지는 주방용품 \n특가 + 사은품까지",
+        "brand": "WAGENSTEIGER"
+    },
+    {
+        "img": "/image/3.webp",
+        "description": "워커 홀릭, 백 홀릭 \n커뮤터 백 10% + 사은품",
+        "brand": "BEANPOLE"
+    },
+    {
+        "img": "/image/4.jpg",
+        "description": "새로운 계절 맞이 \n액세서리 ~15% 쿠폰팩",
+        "brand": "10 CORSO COMO"
+    },
+    {
+        "img": "/image/5.jpg",
+        "description": "스태프가 전하는 \n포폴라 골프화 리얼 리뷰",
+        "brand": "LECOQ GOLF"
+    },
+    {
+        "img": "/image/6.jpg",
+        "description": "진정 즐기는 이들의 아웃도어 \n신규 론칭 기념 ~20%",
+        "brand": "DOD"
+    },
+    {
+        "img": "/image/7.webp",
+        "description": "청담 메이크업샵 필수템 \n제스젭 베어크림 특가",
+        "brand": "GESGEP"
+    },
+    {
+        "img": "/image/8.webp",
+        "description": "필드와 일상의 경게에 선 \n골프 컬렉션 오픈",
+        "brand": "KUHO"
+    },
+    {
+        "img": "/image/9.jpg",
+        "description": "새 시즌 신상품 \n25 Spring - Summer",
+        "brand": "ISSEY MIYAKE"
+    },
+    {
+        "img": "/image/10.webp",
+        "description": "친숙한 멋 \n특별한 할인",
+        "brand": "NEWERA & JANSPORT 외"
+    },
+    {
+        "img": "/image/11.webp",
+        "description": "새로 맞이하는 계절의 색감 \n신상품 30% + 사은품 증정",
+        "brand": "MELISSA"
+    },
+    {
+        "img": "/image/12.webp",
+        "description": "더 없이 완벽한 파자마 \n신상품 ~70%",
+        "brand": "ULLALA"
+    }
+]

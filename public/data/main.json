@@ -1,0 +1,555 @@
+{
+    "mainTopSlide": [
+        { "items": [
+                {
+                    "name": "TORY BURCH",
+                    "tit": "더할 나위 없이 \n더 누리는 할인",
+                    "desc": "인기 상품 품절 임박 ~50%",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345843_151_KOR_20250124113317.jpg"
+                },
+                {
+                    "name": "FORMEL CAMELE",
+                    "tit": "닳지 않는 사랑스러움",
+                    "desc": "포멜카멜레 론칭 기념 ~58% + 사은품",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345843_161_KOR_20250124113353.jpg"
+                },
+                {
+                    "name": "SAND SOUND",
+                    "tit": "미리 보는 봄의 소리",
+                    "desc": "샌드사운드 25 S/S PRE-DROP",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345843_157_KOR_20250110115831.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "",
+                    "tit": "",
+                    "desc": "",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345842_196_KOR_20250117112951.jpg"
+                },
+                {
+                    "name": "EVENT",
+                    "tit": "다시, 새롭게 \n할인의 축제",
+                    "desc": "아울렛 슈퍼위크 ~92% + 추가 2종 쿠폰",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345842_201_KOR_20250117114230.jpg"
+                },
+                {
+                    "name": "BEAKER",
+                    "tit": "누구든지 \n취향 저격",
+                    "desc": "초콜릿부터 에코백까지 \n선물 지원 10% 쿠폰으로 마음을 전하세요",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345842_193_KOR_20250124105839.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "THEORY",
+                    "tit": "행운처럼 다가온 \n스페셜 오퍼",
+                    "desc": "설 한정 특가 \n23 F/W 아울렛 최대 60%",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345836_168_KOR_20250124110027.jpg"
+                },
+                {
+                    "name": "8 SECONDS",
+                    "tit": "팔초빅데이",
+                    "desc": "이월 상품 최대 70%",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345836_170_KOR_20250124110209.jpg"
+                },
+                {
+                    "name": "MLB",
+                    "tit": "유용하고 편안한 \n데일리 라인업",
+                    "desc": "LB 베이직 라인 론칭 \n최대 60% + 사은품 증정",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345842_201_KOR_20250117114230.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "CDGCDGCDG",
+                    "tit": "새 계절 \n벌써 개시",
+                    "desc": "아우터, 후드, 백팩 등 \n신상 출시",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_409446_3_KOR_20250124110403.jpg"
+                },
+                {
+                    "name": "KODAK & LEVI'S 외",
+                    "tit": "멋을 품은 설 \n선물이 될 혜택",
+                    "desc": "코닥, 리바이스 등 \n매일 쿠폰팩 + 인기 상품 특가",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_409446_2_KOR_20250124110501.jpg"
+                },
+                {
+                    "name": "WOMEN",
+                    "tit": "추위는 아직 한창",
+                    "desc": "더엣지, 셀렙샵 등 베스트 아이템 ~80% 특가",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_409446_8_KOR_20250124110539.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "ANOTHER#",
+                    "tit": "사랑 받는 이유",
+                    "desc": "안살 이유 없는 단독 할인 \n15% 쿠폰 추가 할인까지",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345840_158_KOR_20250124110759.jpg"
+                },
+                {
+                    "name": "ANOTHER#",
+                    "tit": "일상을 특별하게 해줄",
+                    "desc": "눈부신 포인트 룩 최대 64%",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345840_150_KOR_20250124110846.jpg"
+                },
+                {
+                    "name": "BEANPOLE",
+                    "tit": "설렘으로 물들고 \n마음까지 채우는",
+                    "desc": "명절 기프트 제안서 \n랜덤 쿠폰 등 설 맞이 풍성한 혜택",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345840_151_KOR_20250124111056.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "KUHO PLUS",
+                    "tit": "다가올 봄날",
+                    "desc": "설레는 봄맞이 스타일링",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345837_163_KOR_20250124111213.jpg"
+                },
+                {
+                    "name": "MEN",
+                    "tit": "다시 만나는 \n위시리스트",
+                    "desc": "시프트지, 갤럭시, 로가디스 등 \n클리어런스 최대 70%",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345837_161_KOR_20250124111310.jpg"
+                },
+                {
+                    "name": "BEAKER ORIGINAL",
+                    "tit": "입어볼까, 신상",
+                    "desc": "언제나 편안하고, 세련되게 \n비이커 감성으로 재해석한 에센셜 아이템",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345837_164_KOR_20250124111402.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "DESCENTE",
+                    "tit": "소중한 시작을 \n함께해요",
+                    "desc": "인플루언서가 착용한 \n데상트 신상 백팩 & 슈즈",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345838_172_KOR_20250124111854.jpg"
+                },
+                {
+                    "name": "POLO & CHAMPION 외",
+                    "tit": "가치 있는 편안함 \n여기서만 특가",
+                    "desc": "폴로, 챔피언 등 오직 SSF샵에서만 \n기간 한정 단독 특가 + 추가 할인",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345838_174_KOR_20250124112013.jpg"
+                },
+                {
+                    "name": "KUHO",
+                    "tit": "블랙으로 설계한 \n새로운 계절",
+                    "desc": "25 S/S New Collection",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345838_168_KOR_20250124112050.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "LEMAIRE",
+                    "tit": "본연의 모습을 \n더욱 돋보이게 할",
+                    "desc": "25 S/S 신규 컬렉션 출시",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345835_195_KOR_20250124112252.jpg"
+                },
+                {
+                    "name": "AMI",
+                    "tit": "봄에도 함께할 \n마지막 겨울 찬스",
+                    "desc": "시즌오프 ~30 + 10% 쿠폰",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345835_217_KOR_20250124112332.jpg"
+                },
+                {
+                    "name": "SHOES",
+                    "tit": "새로운 순간을 \n아름답게 딛는 법",
+                    "desc": "부츠, 구두 등 단독 할인",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345835_218_KOR_20250124112417.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "LEBEIGE",
+                    "tit": "밀도 있는 삶",
+                    "desc": "2025 Jan. LEFINE",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345839_153_KOR_20250124112557.jpg"
+                },
+                {
+                    "name": "SONGZIO & PYRENEX",
+                    "tit": "겨울 속 \n피어난 봄",
+                    "desc": "다가온 봄을 위한 \n간절기 아우터 최대 84%",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345839_162_KOR_20250124112845.jpg"
+                },
+                {
+                    "name": "GENERAL IDEA",
+                    "tit": "황금연휴 반짝세일, \n봄맞이 아이디어",
+                    "desc": "제너럴아이디어 연휴 특가 \n~63 + 10% 혜택",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345839_158_KOR_20250124112926.jpg"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "name": "BEANPOLE",
+                    "tit": "마지막 혜택에 \n응답할 차례",
+                    "desc": "아울렛 클리어런스 최대 64%",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345844_167_KOR_20250124113039.jpg"
+                },
+                {
+                    "name": "ANOTHER#",
+                    "tit": "감각의 시대",
+                    "desc": "인기 브랜드의 시즌오프 ~92%\n로르서울·두낫플랜·미바이와이",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345844_168_KOR_20250124113227.jpg"
+                },
+                {
+                    "name": "THE APERTURE",
+                    "tit": "Aperture's \nFavorite 1970s",
+                    "desc": "25 Spring 1st Drop",
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23357_345844_170_KOR_20250124113143.jpg"
+                }
+            ]
+        }
+    ],
+    "mainHotBrand": [
+        { "items" : [
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_1_KOR_20240306165740.png",
+                    "tit": "빈폴"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_2_KOR_20240306165827.png",
+                    "tit": "에잇세컨즈"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_3_KOR_20240306165900.png",
+                    "tit": "비이커"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_5_KOR_20240306170026.png",
+                    "tit": "메종키츠네"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_6_KOR_20240306170202.png",
+                    "tit": "구호"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_8_KOR_20240306170407.png",
+                    "tit": "구호플러스"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_4_KOR_20240306165934.png",
+                    "tit": "띠어리"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_14_KOR_20240401153332.png",
+                    "tit": "아미"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_9_KOR_20240306170453.png",
+                    "tit": "이세이미야케"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_16_KOR_20240830132450.png",
+                    "tit": "노스페이스"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_17_KOR_20250103161410.png",
+                    "tit": "울랄라"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346054_18_KOR_20250103161449.png",
+                    "tit": "제너럴아이디어"
+                }
+            ]
+        },
+        { "items": [
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_13_KOR_20250103161604.png",
+                    "tit": "듀베티카"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_21_KOR_20240805144610.png",
+                    "tit": "라코스테"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_26_KOR_20250103161709.png",
+                    "tit": "고비"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_5_KOR_20240306171237.png",
+                    "tit": "토리버치"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_27_KOR_20250103161825.png",
+                    "tit": "꼼데가르송"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_28_KOR_20250103161921.png",
+                    "tit": "준지"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_29_KOR_20250103162023.png",
+                    "tit": "시프트지"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_10_KOR_20240306171547.png",
+                    "tit": "텐 꼬르소 꼬모"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_4_KOR_20240306171155.png",
+                    "tit": "르베이지"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_30_KOR_20250103162232.png",
+                    "tit": "소니"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_31_KOR_20250103164559.png",
+                    "tit": "바겐슈타이거"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346055_32_KOR_20250103162347.png",
+                    "tit": "올세인츠"
+                }
+            ]
+        },
+        { "items" : [
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_29_KOR_20250103163639.png",
+                    "tit": "리바이스"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_33_KOR_20250103163813.png",
+                    "tit": "코이"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_39_KOR_20250116094502.png",
+                    "tit": "리틀뎁"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_35_KOR_20250103163942.png",
+                    "tit": "가니"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_36_KOR_20250103164017.png",
+                    "tit": "단톤"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_37_KOR_20250103164054.png",
+                    "tit": "르메르"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_6_KOR_20240306172201.png",
+                    "tit": "로가디스"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_11_KOR_20240306172508.png",
+                    "tit": "갤럭시라이프스타일"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_10_KOR_20240521103738.png",
+                    "tit": "갤럭시"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_38_KOR_20250103164150.png",
+                    "tit": "코텔로"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_2_KOR_20240306171918.png",
+                    "tit": "스튜디오니콜슨"
+                },
+                {
+                    "img": "https://img.ssfshop.com/display/category/THM/A30/A16/contents/23368_346056_28_KOR_20241204152243.png",
+                    "tit": "랙앤본"
+                }
+            ]
+        }
+    ],
+    "subSlide" : [
+        {
+            "mainImage" : "/image/slide1_1.webp",
+            "tit": "프리미엄 바디워시 & 로션 \n8천원 최저가 핫딜 + 핸드크림 증정",
+            "desc": "MONTHDAYS",
+            "items" : [
+                {
+                    "subImage" : "/image/slide1_2.webp",
+                    "brand": "month&days",
+                    "name": "🔥한개당 8천원 최저가 \n🔥[1+1] 먼스앤데이즈 퍼",
+                    "oprice": "36,000",
+                    "drate": "56",
+                    "dprice": "16,000"
+                },
+                {
+                    "subImage" : "/image/slide1_3.webp",
+                    "brand": "month&days",
+                    "name": "🔥한개당 8천원 최저가 \n🔥[1+1] 먼스앤데이즈 퍼",
+                    "oprice": "36,000",
+                    "drate": "56",
+                    "dprice": "16,000"
+                }
+            ]
+        },
+        {
+            "mainImage" : "/image/slide2_1.webp",
+            "tit": "기다리던 봄과 함께 찾아온 \n신규 브랜드 론칭 & 단독 특가",
+            "desc": "SHESMISS & LIST 외",
+            "items" : [
+                {
+                    "subImage" : "/image/slide2_2.webp",
+                    "brand": "SHESMISS",
+                    "name": "싱글 투버튼 샛업 자켓_SWSJKO31020",
+                    "oprice": "278,000",
+                    "drate": "65",
+                    "dprice": "97,930"
+                },
+                {
+                    "subImage" : "/image/slide2_3.webp",
+                    "brand": "SISTINA",
+                    "name": "레더 밴딩 집업 점퍼_AWWJPP11030",
+                    "oprice": "",
+                    "drate": "",
+                    "dprice": "168,000"
+                }
+            ]
+        },
+        {
+            "mainImage" : "/image/slide3_1.webp",
+            "tit": "새봄 담아온 자크뮈스 팔레트 \n25 S/S New Arrivals",
+            "desc": "JACQUEMUS",
+            "items" : [
+                {
+                    "subImage" : "/image/slide3_2.jpg",
+                    "brand": "JACQUEMUS",
+                    "name": "(Women) Le Cardigan Jacquemus - Light",
+                    "oprice": "",
+                    "drate": "",
+                    "dprice": "1,180,000"
+                },
+                {
+                    "subImage" : "/image/slide3_3.webp",
+                    "brand": "JACQUEMUS",
+                    "name": "(Women) Le Grand Bisou Perls - Black",
+                    "oprice": "",
+                    "drate": "",
+                    "dprice": "1,580,000"
+                }
+            ]
+        },
+        {
+            "mainImage" : "/image/slide4_1.jpg",
+            "tit": "이달의 예보, 스타일 캐스터 \n뉴 스타일 트리플 할인 + 페이백",
+            "desc": "THE APERTURE & SAND SOUND 외",
+            "items" : [
+                {
+                    "subImage" : "/image/slide4_2.webp",
+                    "brand": "SAND SOUND",
+                    "name": "Striped Long-Sleeved Shirt - Sky Blue",
+                    "oprice": "",
+                    "drate": "",
+                    "dprice": "127,000"
+                },
+                {
+                    "subImage" : "/image/slide4_3.jpg",
+                    "brand": "The Aperture",
+                    "name": "70s Vintage Long Jacket - Brown",
+                    "oprice": "",
+                    "drate": "",
+                    "dprice": "298,000"
+                }
+            ]
+        },
+        {
+            "mainImage" : "/image/slide5_1.webp",
+            "tit": "가장 편안하게 준비하는 봄 \n단독 상품 발매 ~87%",
+            "desc": "JEEP",
+            "items" : [
+                {
+                    "subImage" : "/image/slide5_2.webp",
+                    "brand": "JEEP",
+                    "name": "[SSF단독]에센셜 스몰로고 하프집업 크롭 맨투맨",
+                    "oprice": "85,000",
+                    "drate": "38",
+                    "dprice": "53,100"
+                },
+                {
+                    "subImage" : "/image/slide5_3.webp",
+                    "brand": "JEEP",
+                    "name": "[SSF단독]에센셜 스몰로고 하프집업 플리스",
+                    "oprice": "70,000",
+                    "drate": "37",
+                    "dprice": "49,500"
+                }
+            ]
+        },
+        {
+            "mainImage" : "/image/slide6_1.webp",
+            "tit": "일상이 더 편해지는 주방용품 \n바겐슈타이거 ~73% + 페이백",
+            "desc": "WAGENSCHTEIGER",
+            "items" : [
+                {
+                    "subImage" : "/image/slide6_2.webp",
+                    "brand": "WAGENSCHTEIGER",
+                    "name": "스텐 사각트레이 3종세트 No.6",
+                    "oprice": "24,000",
+                    "drate": "60",
+                    "dprice": "10,000"
+                },
+                {
+                    "subImage" : "/image/slide6_3.webp",
+                    "brand": "WAGENSCHTEIGER",
+                    "name": "플래티넘 실리콘 지퍼백 3종 세트 그린",
+                    "oprice": "40,000",
+                    "drate": "58",
+                    "dprice": "16,960"
+                }
+            ]
+        },
+        {
+            "mainImage" : "/image/slide7_1.webp",
+            "tit": "파리지앵의 간결함 \n신상품 7% 쿠폰 + 무료 교환/반품",
+            "desc": "AMI",
+            "items" : [
+                {
+                    "subImage" : "/image/slide7_2.webp",
+                    "brand": "ami",
+                    "name": "(Unisex) Adc Poplin Boxy Fit Shirt - White",
+                    "oprice": "",
+                    "drate": "",
+                    "dprice": "575,000"
+                },
+                {
+                    "subImage" : "/image/slide7_3.webp",
+                    "brand": "ami",
+                    "name": "Women Satin Long Sleeve Shirt - Wool",
+                    "oprice": "",
+                    "drate": "",
+                    "dprice": "845,000"
+                }
+            ]
+        },
+        {
+            "mainImage" : "/image/slide8_1.webp",
+            "tit": "매일 입기 좋은 마뗑킴 \n언제 어디서나 멋스럽게 ~40%",
+            "desc": "MATIN KIM",
+            "items" : [
+                {
+                    "subImage" : "/image/slide8_2.webp",
+                    "brand": "Matin Kim",
+                    "name": "MATIN HERITAGE CROP TOP IN BLACK",
+                    "oprice": "48,000",
+                    "drate": "20",
+                    "dprice": "38,400"
+                },
+                {
+                    "subImage" : "/image/slide8_3.webp",
+                    "brand": "Matin Kim",
+                    "name": "MATIN LOGO ECOBAG IN BLACK",
+                    "oprice": "43,000",
+                    "drate": "10",
+                    "dprice": "38,700"
+                }
+            ]
+        }
+    ]
+}
