@@ -5,7 +5,7 @@ export const CustomersContext = createContext();
 export const CustomersProvider = ({children}) => {
     // 전역 공간에서 자동 업데이트 되도록 관리
     const [customersList, setCustomersList] = useState([]); 
-    const [customer, setCustomer] = useState([]);
+    const [customer, setCustomer] = useState({});
 
 
     return (

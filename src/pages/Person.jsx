@@ -149,7 +149,7 @@ export default function Person() {
     
     useEffect(() => {
         //   WebSocket 연결
-        const socket = new WebSocket("ws://localhost:9002");
+        const socket = new WebSocket("ws://3.34.134.163:9002");
         socket.onopen = () => {
             console.log(" WebSocket 연결 성공! (고객 페이지)");
         };
