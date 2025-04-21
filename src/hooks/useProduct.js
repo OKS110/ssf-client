@@ -19,7 +19,7 @@ export function useProduct() {
     }
     /** WebSocket을 이용해 상품 업데이트 감지 **/
     useEffect(() => {
-        const newSocket = new WebSocket("ws://3.34.134.163:9002"); //  WebSocket 연결
+        const newSocket = new WebSocket("ws://3.39.232.155:9002"); //  WebSocket 연결
         setSocket(newSocket);
 
         newSocket.onopen = () => {
