@@ -65,7 +65,7 @@ export default function DetailProducts() {
     //  리뷰 데이터를 서버에서 가져오는 함수
     const fetchReviews = async () => {
             try {
-                const response = await axios.post("http://52.78.224.175:9000/review/list", { product_id: pid });
+                const response = await axios.post("http://3.36.70.100:9000/review/list", { product_id: pid });
                 if (response.data.success) {
                     setReviews(response.data.reviews);
                 }

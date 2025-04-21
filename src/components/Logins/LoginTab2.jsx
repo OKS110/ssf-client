@@ -45,7 +45,7 @@ export default function LoginTab2({ isActive }) {
         return;
     }
 
-    axios.post('http://52.78.224.175:9000/user/guestLogin', {
+    axios.post('http://3.36.70.100:9000/user/guestLogin', {
       name: formData.guestNm,
       phone: formData.mobileNo,
       order_number: formData.ordNo,

@@ -15,7 +15,7 @@ export function useCart() {
     //  아이디 번호 호출
     const getCustomerId = async () => {
         const id = localStorage.getItem("user_id");
-        const result = await axios.post("http://52.78.224.175:9000/cart/getId", { id });
+        const result = await axios.post("http://3.36.70.100:9000/cart/getId", { id });
 
         setUserId(result.data);
         return result.data;
@@ -25,7 +25,7 @@ export function useCart() {
     const getCartItems = async() => {
         try {
             const id = await getCustomerId();
-            const result = await axios.post("http://52.78.224.175:9000/cart/items", { id });
+            const result = await axios.post("http://3.36.70.100:9000/cart/items", { id });
 
             //  배송비 데이터 추가하여 상태 업데이트
             setCartList(result.data.map(item => ({
@@ -44,7 +44,7 @@ export function useCart() {
             if (existingItem) {
                 //  같은 상품, 같은 옵션이 있으면 수량 업데이트
                 const updatedQuantity = existingItem.quantity + formData.count;
-                await axios.post("http://52.78.224.175:9000/cart/changeQty", {
+                await axios.post("http://3.36.70.100:9000/cart/changeQty", {
                     cid: existingItem.cid,
                     count: updatedQuantity
                 });
@@ -61,7 +61,7 @@ export function useCart() {
                     size: formData.size.toString().trim(),
                     color: formData.color.toString().trim(),
                 };
-                const response = await axios.post("http://52.78.224.175:9000/cart/add", requestData);
+                const response = await axios.post("http://3.36.70.100:9000/cart/add", requestData);
                 if (response.data.result_row > 0) {
                     // console.log(" 장바구니에 상품 추가 성공");
                     setCartList((prevList) => [
@@ -99,12 +99,12 @@ export function useCart() {
             if (existingItem && existingItem.cid !== cid) {
                 //  같은 옵션이 존재하면 기존 항목과 병합 (수량 증가)
                 const updatedQuantity = existingItem.quantity + newQuantity;
-                await axios.post("http://52.78.224.175:9000/cart/changeQty", {
+                await axios.post("http://3.36.70.100:9000/cart/changeQty", {
                     cid: existingItem.cid,
                     count: updatedQuantity
                 });
                 //  기존 `cid` 항목 삭제 (중복 제거)
-                await axios.post("http://52.78.224.175:9000/cart/deleteItem", { cid });
+                await axios.post("http://3.36.70.100:9000/cart/deleteItem", { cid });
                 setCartList((prevList) =>
                     prevList
                         .filter((item) => item.cid !== cid) //  기존 아이템 삭제
@@ -114,7 +114,7 @@ export function useCart() {
                 );
             } else {
                 //  옵션만 변경
-                await axios.post("http://52.78.224.175:9000/cart/updateOptions", {
+                await axios.post("http://3.36.70.100:9000/cart/updateOptions", {
                     cid,
                     size: newSize,
                     color: newColor,
@@ -144,7 +144,7 @@ export function useCart() {
         }
     
         try {
-            const response = await axios.post("http://52.78.224.175:9000/cart/updateOptions", { 
+            const response = await axios.post("http://3.36.70.100:9000/cart/updateOptions", { 
                 cid, size, color, quantity 
             });
     
@@ -164,7 +164,7 @@ export function useCart() {
     //  장바구니 페이지 - 아이템 개별 삭제
     const cartDeleteItem = async (cid) => {
         try {
-            const result = await axios.post("http://52.78.224.175:9000/cart/deleteItem", { cid });
+            const result = await axios.post("http://3.36.70.100:9000/cart/deleteItem", { cid });
 
             if (result.data.result_row > 0) {
                 console.log(` 상품 삭제 완료: CID ${cid}`);
@@ -178,7 +178,7 @@ export function useCart() {
     //  비회원일 때 장바구니 상품 데이터 호출
     const getGuestCartItems = async (pid) => {
         try {
-            const result = await axios.post("http://52.78.224.175:9000/cart/guestItems", { pid });
+            const result = await axios.post("http://3.36.70.100:9000/cart/guestItems", { pid });
             return result;
         } catch (error) {
             console.error("ERROR 비회원 장바구니 데이터 호출 중 오류 발생:", error);

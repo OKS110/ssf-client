@@ -70,7 +70,7 @@ export default function Person() {
     /** 회원 주문 목록 가져오기 */
     const fetchMemberOrders = async (userId) => {
         try {
-            const response = await axios.post("http://52.78.224.175:9000/order/all", { id: userId });
+            const response = await axios.post("http://3.36.70.100:9000/order/all", { id: userId });
             setOrderList(response.data);
         } catch (error) {
             console.error("ERROR! 회원 주문 조회 오류:", error);
@@ -80,7 +80,7 @@ export default function Person() {
     /** 비회원 주문 목록 가져오기 */
     const fetchGuestOrders = async (guestId) => {
         try {
-            const response = await axios.post("http://52.78.224.175:9000/guest/orders", { guest_id: guestId });
+            const response = await axios.post("http://3.36.70.100:9000/guest/orders", { guest_id: guestId });
             setOrderList(response.data);
         } catch (error) {
             console.error("ERROR! 비회원 주문 조회 오류:", error);
@@ -94,7 +94,7 @@ export default function Person() {
         setOrderList((prevOrders) => prevOrders.filter((order) => order.oid !== oid));
     
         try {
-            await axios.delete(`http://52.78.224.175:9000/order/cancel/${oid}`);
+            await axios.delete(`http://3.36.70.100:9000/order/cancel/${oid}`);
             alert("주문이 취소되었습니다.");
         } catch (error) {
             console.error("ERROR! 주문 취소 오류:", error.response ? error.response.data : error);
@@ -121,7 +121,7 @@ export default function Person() {
         }
         try {
             //   리뷰 저장 요청
-            const response = await axios.post("http://52.78.224.175:9000/review/add", {
+            const response = await axios.post("http://3.36.70.100:9000/review/add", {
                 customer_id: selectedOrder.customer_id,
                 product_id: selectedOrder.product_id,
                 order_id: selectedOrder.oid,

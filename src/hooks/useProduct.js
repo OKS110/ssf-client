@@ -12,7 +12,7 @@ export function useProduct() {
 
     /** 상품 데이터 전체 호출 **/
     const getProductList = async() => {
-        const result = await axios.post("http://52.78.224.175:9000/product/all"); // 별점 순으로 order by 사용해서 출력
+        const result = await axios.post("http://3.36.70.100:9000/product/all"); // 별점 순으로 order by 사용해서 출력
         setProductList(result.data);
         
         return result.data;
@@ -74,7 +74,7 @@ export function useProduct() {
 
     /** 상품 아이디 별 데이터 호출 **/
     const getPidItem = async (pid) => {
-        const result = await axios.post("http://52.78.224.175:9000/product/item", { pid });
+        const result = await axios.post("http://3.36.70.100:9000/product/item", { pid });
         setPidItem(result.data);
         return result.data;  //  상품 정보를 반환하도록 수정
     };

@@ -49,7 +49,7 @@ export default function LoginTab1({ isActive }) {
         if (validate()) {
             // console.log('send data --> ', formData);
 
-            axios.post('http://52.78.224.175:9000/user/login', formData)
+            axios.post('http://3.36.70.100:9000/user/login', formData)
                 .then(res => {
                     // console.log('res.data --> ', res.data);
                     if (res.data.result_rows === 1) {

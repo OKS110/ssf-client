@@ -105,7 +105,7 @@ export default function Signup(){
                 did.focus();     
             }else {
                 axios
-                    .post('http://52.78.224.175:9000/member/idCheck',{'id' : did.value})
+                    .post('http://3.36.70.100:9000/member/idCheck',{'id' : did.value})
                     .then(res =>{ 
                         if(res.data.count === 1){
                             setError({...error,['id']:'사용중인 아이디입니다'});
@@ -163,7 +163,7 @@ export default function Signup(){
                 return false;
             } else {
                 axios
-                    .post('http://52.78.224.175:9000/member/signup',{data, adata})
+                    .post('http://3.36.70.100:9000/member/signup',{data, adata})
                     .then(res =>{
                         if(res.data.result === 1 ){
                             alert('회원가입성공'); 

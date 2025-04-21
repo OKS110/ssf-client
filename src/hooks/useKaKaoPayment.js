@@ -34,7 +34,7 @@ export const useKakaoPayment = () => {
                 const isGuest = !userData.customer_id; //  비회원 여부 확인
                 const userId = isGuest ? userData.name : userData.customer_id; //  회원이면 customer_id, 비회원이면 name
 
-                const res = await axios.post('http://52.78.224.175:9000/payment/qr', {
+                const res = await axios.post('http://3.36.70.100:9000/payment/qr', {
                     id: userId,
                     item_name: formatTitle(itemNames), //  상품명 축약
                     total_amount: totalPrice, //  모든 상품 가격 합산

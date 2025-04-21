@@ -8,7 +8,7 @@ export function useCustomers() {
 
     /** 고객 데이터 전체 호출 **/
     const getCustomersList = async () => {
-        const result = await axios.post("http://52.78.224.175:9000/customers/all");
+        const result = await axios.post("http://3.36.70.100:9000/customers/all");
         setCustomersList(result.data);
     }
 
@@ -20,7 +20,7 @@ export function useCustomers() {
         }
         try {
             console.log("API 요청: 고객 데이터 가져오기 - username:", username);
-            const result = await axios.post("http://52.78.224.175:9000/customers/member", { username });
+            const result = await axios.post("http://3.36.70.100:9000/customers/member", { username });
             console.log("고객 데이터 응답:", result.data);
     
             setCustomer(result.data);
