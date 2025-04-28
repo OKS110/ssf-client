@@ -204,6 +204,7 @@ export default function DetailOrder({ pid, pidItem, averageRating, reviewsLength
                     장바구니
                 </button>
 
+
                 <button onClick={handleDirectPurchase}>
                     바로구매
                 </button>
