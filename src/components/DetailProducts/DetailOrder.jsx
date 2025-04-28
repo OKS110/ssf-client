@@ -10,7 +10,7 @@ export default function DetailOrder({ pid, pidItem, averageRating, reviewsLength
     const navigate = useNavigate();
 
     //  pidItem.size, pidItem.color가 undefined일 경우 빈 배열 할당
-    const sizePidItemList = pidItem?.size || []; 
+    const sizePidItemList = pidItem?.size || [];
     const colorPidItemList = pidItem?.color || [];
 
     const { count, setCount, selectColor, setSelectColor, selectedSize, setSelectedSize, cartList, userId } = useContext(DetailProductContext);
@@ -22,7 +22,7 @@ export default function DetailOrder({ pid, pidItem, averageRating, reviewsLength
             getCartItems();
         }
     }, []);
-    
+
     // 상품 수량, 색상, 사이즈 선택 시
     const handleCount = (e, type) => {
         e.preventDefault();
@@ -33,15 +33,15 @@ export default function DetailOrder({ pid, pidItem, averageRating, reviewsLength
         }
     };
     const handleColorSelect = (color) => {
-        setSelectColor(color);  
+        setSelectColor(color);
     };
     const handleSizeSelect = (size) => {
-        setSelectedSize(size);  
+        setSelectedSize(size);
     };
 
     //  회원 전용 장바구니 로직
     const addCart = () => {
-        if (!isLoggedIn) return; 
+        if (!isLoggedIn) return;
         if (!selectedSize || !selectColor) {
             alert("색상과 사이즈를 선택해주세요.");
             return;
@@ -69,12 +69,12 @@ export default function DetailOrder({ pid, pidItem, averageRating, reviewsLength
         sessionStorage.removeItem("selectedSize");
         sessionStorage.removeItem("selectedCount");
         sessionStorage.removeItem("DirectOrder");
-    
+
         const confirmMove = window.confirm("장바구니에 상품이 담겼습니다.\n장바구니로 이동하시겠습니까?");
         if (confirmMove) navigate("/carts");
     };
-    
-    
+
+
 
     //  바로구매 로직
     const handleDirectPurchase = () => {
@@ -192,15 +192,18 @@ export default function DetailOrder({ pid, pidItem, averageRating, reviewsLength
             </div>
 
             <div className="goods-info-btns">
-                <button 
-                    onClick={addCart} 
-                    disabled={!isLoggedIn} 
-                    style={{ backgroundColor: isLoggedIn ? "black" : "gray",
-                    color:"white",
-                    cursor: isLoggedIn ? "pointer" : "not-allowed" }}>
+                <button
+                    onClick={addCart}
+                    disabled={!isLoggedIn || (localStorage.getItem('token')?.startsWith('guest_'))}
+                    style={{
+                        backgroundColor: isLoggedIn && !(localStorage.getItem('token')?.startsWith('guest_')) ? "black" : "gray",
+                        color: "white",
+                        cursor: isLoggedIn && !(localStorage.getItem('token')?.startsWith('guest_')) ? "pointer" : "not-allowed"
+                    }}
+                >
                     장바구니
                 </button>
-                
+
                 <button onClick={handleDirectPurchase}>
                     바로구매
                 </button>
